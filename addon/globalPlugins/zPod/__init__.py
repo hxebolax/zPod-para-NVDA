@@ -156,11 +156,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.reproductor.volumen(volumenGeneral)
 			self.reproductor.play(p)
 			self.duracion = self.reproductor.duracion()
-			try:
-				tiempo1 = int(self.duracion)
-				self.tiempoTotal = str(timedelta(seconds=tiempo1))
-			except:
-				self.tiempoTotal = None
+			tiempo1 = int(self.duracion)
+			self.tiempoTotal = str(timedelta(seconds=tiempo1))
 
 	@script(gesture=None, description= _("Bajar volumen"), category= _("zPod"))
 	def script_bajarVol(self, event):
@@ -282,7 +279,7 @@ class MPVClass():
 		time.sleep(0.2)
 		return self.player.duration
 
-	@player.property_observer('time-pos')
+	@player.property_observer('time-pos') #'time-pos'
 	def observe_time_pos(_name, value):
 		if value == None:
 			pass
