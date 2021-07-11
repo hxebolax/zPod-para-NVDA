@@ -12,29 +12,29 @@ Il est valable pour les extensions audio et vidéo, mais je me permets de préci
 
 Notez également que cela est valable au cas où nous avons un NVDA portable et sur un ordinateur qui n'est pas le notre et nous voulons lire quelque chose.
 
-Cette extension n'a pas besoin d'installer quelque chose sur l'ordinateur ni dépend d'une bibliothèque externe  à l'extension afin qu'il soit valide pour prévisualiser un fichier multimédia à un moment donné que nous n'avons pas de lecteur commun.
+Cette extension n'a pas besoin d'installer quelque chose sur l'ordinateur ni dépend d'une bibliothèque externe à l'extension afin qu'il soit valide pour prévisualiser un fichier multimédia à un moment donné que nous n'avons pas de lecteur commun.
 
 ## Note importante de l'auteur
 
-Cette extension n'est pas destinée à être un lecteur multimédia, elle peut être utilisée pour écouter un fichier multimédia en soi, mais elle ne deviendra jamais un  lecteur commun ni les nouvelles options ne seront ajoutées à l'extension pour devenir telle.
+Cette extension n'est pas destinée à être un lecteur multimédia, elle peut être utilisée pour écouter un fichier multimédia en soi, mais elle ne deviendra jamais un lecteur commun ni les nouvelles options ne seront ajoutées à l'extension pour devenir telle.
 
 Il s'agit de couvrir le besoin de voir rapidement le contenu d'un fichier multimédia et rien de plus.
 
 ## Utilisation de l'extension
 
-Cette extension dans sa première exécution n'a pas de touche attribuée pour cela Nous devrons donc aller dans le menu NVDA / Préférences /  Gestes de commandes dans la catégorie zPod puis configurer les touches que nous considérons que nous allons avoir besoin.
+Cette extension dans sa première exécution n'a pas de touche attribuée pour cela nous devrons donc aller dans le menu NVDA / Préférences / Gestes de commandes dans la catégorie zPod puis configurer les touches que nous considérons que nous allons avoir besoin.
 
 Une fois que l'on a attribuée le plus important des gestes de commandes est d'exécuter Zpod avec laquel nous allons exécuter l'extension.
 
-Lorsque le focus est mis sur un fichier multimédia et nous appuyons  sur cette combinaison il commencera la lecture, pouvant agir sur le fichier avec le reste des combinaisons de touches.
+Lorsque le focus est mis sur un fichier multimédia et nous appuyons sur cette combinaison il commencera la lecture, pouvant agir sur le fichier avec le reste des combinaisons de touches.
 
 Si le fichier multimédia n'était pas compatible, nous serons informés des messages correspondants.
 
 Vous ne pouvez pas choisir plus d'un fichier à lire, si nous le faisons, nous serons informés avec un message.
 
-Par conséquent, je donne un exemple si nous sommes dans un répertoire avec de nombreux fichiers multimédia et que nous ne savons pas ce que nous voulons, nous pouvons explorer le répertoire et aller en  appuyant sur Exécuter zPod jusqu'à  trouver celui que nous voulons.
+Par conséquent, je donne un exemple si nous sommes dans un répertoire avec de nombreux fichiers multimédia et que nous ne savons pas ce que nous voulons, nous pouvons explorer le répertoire et aller en appuyant sur Exécuter zPod jusqu'à trouver celui que nous voulons.
 
-Lorsque ce fichier  est en cours de lecture et que nous choisissons un autre, automatiquement celui  qui est en cours de lecture s'arrêtera et il commencera celui que nous Choisissons.
+Lorsque ce fichier est en cours de lecture et que nous choisissons un autre, automatiquement celui qui est en cours de lecture s'arrêtera et il commencera celui que nous Choisissons.
 
 ## Gestes de commandes
 
@@ -48,13 +48,23 @@ Elle apporte 8 combinaisons qui sont les suivantes:
 
 * Obtenir la durrée de temps écoulé / total de lecture: Avec cette combinaison, nous serons informés de la durée du temps écoulée de lecture du fichier multimédia et la durée du temps totale de lecture du fichier multimédia.
 
-* Baisser le volume et Augmenter le volume: Avec cela, nous allons baisser et augmenter le volume de lecture, lorsque nous appuyons  sur lui, nous serons informés dans quel pourcentage est celui-ci. Chaque modification du son sera sauvegardé dans le fichier NVDA.ini et il sera établi pour la prochaine fois. Par défaut, la première fois le son est de 50%.
+* Baisser le volume et Augmenter le volume: Avec cela, nous allons baisser et augmenter le volume de lecture, lorsque nous appuyons sur lui, nous serons informés dans quel pourcentage est celui-ci. Chaque modification du son sera sauvegardé dans le fichier NVDA.ini et il sera établi pour la prochaine fois. Par défaut, la première fois le son est de 50%.
 
-* Reculer la lecture et Avancer la lecture: Avec ces combinaisons, nous allons reculer  ou avancer  la durée  de temps dans le fichier multimédia en cours de lecture. Par défaut, la première fois est sur reculer 5 secondes et avancer 15 secondes.
+* Reculer la lecture et Avancer la lecture: Avec ces combinaisons, nous allons reculer ou avancer la durée  de temps dans le fichier multimédia en cours de lecture. Par défaut, la première fois est sur reculer 5 secondes et avancer 15 secondes.
 
 Ceci peut être configuré dans Préférences / Paramètres / zPod, dans le dialogue Paramètres de NVDA , nous pouvons choisir la durée de temps que nous souhaitons pour chaque action de 1 seconde à 15 minutes.
 
 Ces réglages seront également sauvegardées dans le fichier NVDA.ini et seront établies pour la prochaine fois.
+
+## Recommandation très importante pour pouvoir configurer le premier geste de commande Exécuter zPod
+
+Juste au cas où, je vous dis que dans aucun cas, vous devez faire Contrôle + c pour démarrer l'extension, cela est fait par l'extension en interne, il vous suffit d'utiliser la combinaison que nous allons assignée au geste de commande appelé "Exécuter zPod".
+
+N'utilisez pas dans la combinaison de touches pour démarrer l'extension ni la touche control ni les symboles, car ils donneront des erreurs car le geste physique est mélangé avec le virtuel que nous envoyons, c'est-à-dire que si nous avons par exemple un control + alt +i pour vraiment démarrer ensuite, ceci est convertit en deux contrôle car il est étroitement lié à celui que l'extension de manière interne fait, c'est-à-dire lorsque nous sommes sur un fichier multimédia ce qu'il fait est qu'il simule une combinaison de touche du fichier exactement Ctrl +C, exacte ceci copie le fichier dans le presse-papiers et on obtient le chemin du fichier à être exécuté par zPod.
+
+Dans les autres combinaisons de touches, cela n'a pas d'importance, mais dans le démarrage de l'extension non.
+
+N'oubliez pas que cette extension est déjà faite et qu'il n'aura donc pas plus de développement que nécessaire à sa maintenance et qui fonctionne avec les futures versions de NVDA.
 
 ## Extensions supportées
 
