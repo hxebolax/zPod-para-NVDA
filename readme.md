@@ -56,7 +56,6 @@ Esto se puede configurar en Preferencias / Opciones / zPod, en el panel de opcio
 
 Estas opciones se guardarán igualmente en el archivo NVDA.ini y quedaran establecidas para la siguiente vez.
 
-<<<<<<< HEAD
 ## Recomendación muy importante para poder configurar el primer gesto de entrada Ejecutar zPod
 
 Por si acaso, lo digo que en ningún momento hay que hacer Control + c para iniciar el complemento, eso lo hace el complemento de manera interna solo hay que usar la combinación que asignemos en el gesto de entrada llamado "Ejecutar zPod".
@@ -68,16 +67,20 @@ En las otras combinaciones de teclas da igual pero en la de iniciar el complemen
 No te olvides que este complemento ya esta hecho y por lo tanto no va a tener más desarrollo que el necesario para su mantenimiento y que funcione con futuras versiones de NVDA.
 
 ## Extensiones soportadas
-=======
-##Extensiones soportadas
->>>>>>> parent of 992ad6a (Versión 0.1.5)
 
 ac3, a52, eac3, mlp, dts, dts-hd, dtshd, true-hd, thd, truehd, thd+ac3, tta, pcm, wav, aiff, aif, aifc, amr, awb, au, snd, lpcm, yuv, y4m, ape, wv, shn, m2ts, m2t, mts, mtv, ts, tsv, tsa, tts, trp, adts, adt, mpa, m1a, m2a, mp1, mp2, mp3, mpeg, mpg, mpe, mpeg2, m1v, m2v, mp2v, mpv, mpv2, mod, tod, vob, vro, evob, evo, mpeg4, m4v, mp4, mp4v, mpg4, m4a, aac, h264, avc, x264, 264, hevc, h265, x265, 265, flac, oga, ogg, opus, spx, ogv, ogm, ogx, mkv, mk3d, mka, webm, weba, avi, vfw, divx, 3iv, xvid, nut, flic, fli, flc, nsv, gxf, mxf, wma, wm, wmv, asf, dvr-ms, dvr, wtv, dv, hdv, flv, f4v, f4a, qt, mov, hdmov, rm, rmvb, ra, ram, 3ga, 3ga2, 3gpp, 3gp, 3gp2, 3g2, ay, gbs, gym, hes, kss, nsf, nsfe, sap, spc, vgm, vgz, m3u, m3u8, pls, cue
 
-## Agradecimientos
+## Agradecimientos y traductores
 
-Reinier Ginnari: Por comentarme su necesidad y darme la idea. También por darme el nombre del complemento y por sus pruebas del complemento y su retroalimentación para llegar a ser lo que es el complemento.
+* Reinier Ginnari: Por comentarme su necesidad y darme la idea. También por darme el nombre del complemento y por sus pruebas del complemento y su retroalimentación para llegar a ser lo que es el complemento.
+* Francés: Rémy Ruiz
+* Portugués: Ángelo Abrantes
+
 # Registro de cambios.
+## Versión 0.1.5.
+
+* Agregado idioma Francés y  Portugués (Portugal / Brasil).
+
 ## Versión 0.1.
 
 * Versión inicial.
