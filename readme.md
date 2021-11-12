@@ -75,6 +75,7 @@ ac3, a52, eac3, mlp, dts, dts-hd, dtshd, true-hd, thd, truehd, thd+ac3, tta, pcm
 * Reinier Ginnari: Por comentarme su necesidad y darme la idea. También por darme el nombre del complemento y por sus pruebas del complemento y su retroalimentación para llegar a ser lo que es el complemento.
 * Francés: Rémy Ruiz
 * Portugués: Ángelo Abrantes
+* Turco: : umut korkmaz
 
 # Registro de cambios.
 ## Versión 0.1.5.
