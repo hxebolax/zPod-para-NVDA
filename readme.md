@@ -76,8 +76,16 @@ ac3, a52, eac3, mlp, dts, dts-hd, dtshd, true-hd, thd, truehd, thd+ac3, tta, pcm
 * Francés: Rémy Ruiz
 * Portugués: Ángelo Abrantes
 * Turco: : umut korkmaz
+* Italiano: Alessio Lenzi
+* Árabe: Wafiq Taher
 
 # Registro de cambios.
+## Versión 0.2.
+
+* Agregada compatibilidad con NVDA 2022.1.
+
+* Agregado idioma Árabe.
+
 ## Versión 0.1.5.
 
 * Agregado idioma Francés y  Portugués (Portugal / Brasil).
