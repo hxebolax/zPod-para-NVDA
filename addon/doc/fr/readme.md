@@ -75,9 +75,19 @@ ac3, a52, eac3, mlp, dts, dts-hd, dtshd, true-hd, thd, truehd, thd+ac3, tta, pcm
 * Reinier Ginnari: Pour me commenter sont besoin et me donner l'idée. Aussi pour me donner le nom de l'extension et par ses tests de l'extension et de ses commentaires pour devenir ce que l'extension est.
 * Français: Rémy Ruiz
 * Portugais: Ângelo Miguel Abrantes
+* Turc: umut korkmaz
+* Italien: Alessio Lenzi
+* Arabe: Wafiq Taher
 
 # Journal des changements.
+## Version 0.2.
+
+* Ajout de la compatibilité avec NVDA 2022.1.
+
+* Ajout de la langue arabe.
+
 ## Version 0.1.5. 
+
 * Ajout de la traduction française et Portugaise (Portugal / Brésil).
 
 ## Version 0.1.

@@ -80,6 +80,10 @@ ac3, a52, eac3, mlp, dts, dts-hd, dtshd, true-hd, thd, truehd, thd+ac3, tta, pcm
 * Árabe: Wafiq Taher
 
 # Registro de cambios.
+## Versión 0.3.
+
+* Agregada compatibilidad con NVDA 2023.1.
+
 ## Versión 0.2.
 
 * Agregada compatibilidad con NVDA 2022.1.
