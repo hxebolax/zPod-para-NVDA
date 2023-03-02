@@ -78,6 +78,7 @@ ac3, a52, eac3, mlp, dts, dts-hd, dtshd, true-hd, thd, truehd, thd+ac3, tta, pcm
 * Turco: : umut korkmaz
 * Italiano: Alessio Lenzi
 * Árabe: Wafiq Taher
+* Ukrainian: Heorhii
 
 # Registro de cambios.
 ## Versión 0.3.
