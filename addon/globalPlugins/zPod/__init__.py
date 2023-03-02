@@ -116,7 +116,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def runPlay(self):
 		time.sleep(0.7)
-		keyboardHandler.KeyboardInputGesture.fromName("Control+c").send()
+		try:
+			keyboardHandler.KeyboardInputGesture.fromName("Control+c").send()
+		except:
+			keyboardHandler.KeyboardInputGesture.fromName("Control+insert").send() # copiar en ruso
 		try:
 			cb.OpenClipboard()
 		except pywintypes.error:
