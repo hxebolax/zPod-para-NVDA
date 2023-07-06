@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'zPod' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'zPod' '0.3.1'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-07-06 10:41+0400\n"
+"PO-Revision-Date: 2023-07-06 10:56+0400\n"
+"Last-Translator: Dragan Ratkovich\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. add-on Name/identifier, internal for NVDA
+#: buildVars.py:19 addon\globalPlugins\zPod\__init__.py:150
+#: addon\globalPlugins\zPod\__init__.py:168
+#: addon\globalPlugins\zPod\__init__.py:180
+#: addon\globalPlugins\zPod\__init__.py:192
+#: addon\globalPlugins\zPod\__init__.py:196
+#: addon\globalPlugins\zPod\__init__.py:200
+#: addon\globalPlugins\zPod\__init__.py:204
+#: addon\globalPlugins\zPod\__init__.py:208
+#: addon\globalPlugins\zPod\__init__.py:215
+msgid "zPod"
+msgstr "zPod"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "zPod para NVDA"
+msgstr "zPod for NVDA"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:26
+msgid "Previsualiza archivos multimedia rápidamente"
+msgstr "Quickly preview media files"
+
+#: addon\globalPlugins\zPod\__init__.py:57
+msgid "1 segundo"
+msgstr "1 second"
+
+#: addon\globalPlugins\zPod\__init__.py:58
+msgid "5 segundos"
+msgstr "5 seconds"
+
+#: addon\globalPlugins\zPod\__init__.py:59
+msgid "15 segundos"
+msgstr "15 seconds"
+
+#: addon\globalPlugins\zPod\__init__.py:60
+msgid "30 segundos"
+msgstr "30 seconds"
+
+#: addon\globalPlugins\zPod\__init__.py:61
+msgid "1 minuto"
+msgstr "1 minute"
+
+#: addon\globalPlugins\zPod\__init__.py:62
+msgid "5 minutos"
+msgstr "5 minutes"
+
+#: addon\globalPlugins\zPod\__init__.py:63
+msgid "10 minutos"
+msgstr "10 minutes"
+
+#: addon\globalPlugins\zPod\__init__.py:64
+msgid "15 minutos"
+msgstr "15 minutes"
+
+#: addon\globalPlugins\zPod\__init__.py:106
+#: addon\globalPlugins\zPod\__init__.py:112
+#: addon\globalPlugins\zPod\__init__.py:211
+msgid "Sin tiempo"
+msgstr "No time duration"
+
+#: addon\globalPlugins\zPod\__init__.py:134
+#: addon\globalPlugins\zPod\__init__.py:147
+msgid "No hay nada compatible en el foco"
+msgstr "Nothing compatible in focus"
+
+#: addon\globalPlugins\zPod\__init__.py:141
+msgid "El formato del archivo no es compatible"
+msgstr "The file format is not supported"
+
+#: addon\globalPlugins\zPod\__init__.py:144
+#, python-format
+msgid "Ha seleccionado %s ficheros. Seleccione solo un fichero."
+msgstr "You have selected %s files. Select only one file."
+
+#: addon\globalPlugins\zPod\__init__.py:150
+msgid "Ejecutar zPod"
+msgstr "Run zPod"
+
+#: addon\globalPlugins\zPod\__init__.py:168
+msgid "Bajar volumen"
+msgstr "Decrease volume"
+
+#: addon\globalPlugins\zPod\__init__.py:172
+msgid "No se puede bajar más el volumen ya se encuentra al 0%"
+msgstr "You can't decrease the volume anymore, it's already at 0%"
+
+#: addon\globalPlugins\zPod\__init__.py:177
+#: addon\globalPlugins\zPod\__init__.py:189
+msgid "{}%"
+msgstr "{}%"
+
+#: addon\globalPlugins\zPod\__init__.py:180
+msgid "Subir volumen"
+msgstr "Increase volume"
+
+#: addon\globalPlugins\zPod\__init__.py:184
+msgid "No se puede subir más el volumen ya se encuentra al 100%"
+msgstr "You can't increase the volume anymore, it's already at 100%"
+
+#: addon\globalPlugins\zPod\__init__.py:192
+msgid "Poner en pausa la reproducción"
+msgstr "Pause"
+
+#: addon\globalPlugins\zPod\__init__.py:196
+msgid "Retroceder la reproducción "
+msgstr "Rewind"
+
+#: addon\globalPlugins\zPod\__init__.py:200
+msgid "Adelantar la reproducción "
+msgstr "Fast forward"
+
+#: addon\globalPlugins\zPod\__init__.py:204
+msgid "Obtener tiempo reproducido / total"
+msgstr "Elapsed/Total Time:"
+
+#: addon\globalPlugins\zPod\__init__.py:208
+msgid "Detener zPod"
+msgstr "Stop zPod"
+
+#: addon\globalPlugins\zPod\__init__.py:220
+msgid "Seleccione el tiempo para retroceder la reproducción:"
+msgstr "Select time to rewind:"
+
+#: addon\globalPlugins\zPod\__init__.py:223
+msgid "Seleccione el tiempo para adelantar la reproducción:"
+msgstr "Select a time to fast forward:"
